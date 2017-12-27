@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Easy Korean Learning</string>
+    <string name="learning">LEARNING</string>
+    <string name="easy">EASY</string>
+    <string name="korean">KOREAN</string>
+    <string name="g">ㄱ</string>
+    <string name="n">ㄴ</string>
+    <string name="d">ㄷ</string>
+    <string name="m">ㅁ</string>
+    <string name="s">ㅅ</string>
+    <string name="ng">ㅇ</string>
+
+    <string name="congratulation">축하합니다</string>
+    <string name="no_way">안 돼요</string>
+    <string name="its_okay">괜찮아</string>
+    <string name="thank_you">감사합니다</string>
+    <string name="im_sorry">미안합니다</string>
+    <string name="yes">예</string>
+    <string name="no">아니</string>
+
+    <string name="how_are_you">잘 지냈어요?</string>
+    <string name="nice_to_meet_you"> 만나서 반가워요</string>
+    <string name="goodbye">잘가요</string>
+    <string name="stay_well">안녕히계세요</string>
+    <string name="what_is_your_name">당신의 이름은 무엇입니까?</string>
+
+    <string name="man">남자</string>
+    <string name="woman">여자</string>
+    <string name="student">학생</string>
+    <string name="friend">친구</string>
+    <string name="teacher">선생님</string>
+    <string name="school">학교</string>
+    <string name="restaurant">식당</string>
+    <string name="bus">버스</string>
+    <string name="taxi">택시</string>
+    <string name="airplane">비행기</string>
+
+
+</resources>

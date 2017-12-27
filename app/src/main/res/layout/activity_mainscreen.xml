@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cacher"
+    tools:context="com.example.user.easykoreanlearning.mainscreen">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="164dp"
+        android:layout_height="74dp"
+        android:layout_above="@+id/textView5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="31dp"
+        android:text="@string/easy"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="@android:dimen/notification_large_icon_height"
+        app:layout_constraintLeft_toLeftOf="@+id/textView5"
+        app:layout_constraintRight_toRightOf="@+id/textView5"
+        tools:layout_editor_absoluteY="63dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="261dp"
+        android:layout_height="84dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/korean"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="@android:dimen/notification_large_icon_height"
+        app:layout_constraintLeft_toLeftOf="@+id/textView4"
+        app:layout_constraintRight_toRightOf="@+id/textView4"
+        tools:layout_editor_absoluteY="164dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="261dp"
+        android:layout_height="84dp"
+        android:text="@string/learning"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="@android:dimen/notification_large_icon_height"
+        tools:layout_editor_absoluteY="164dp"
+        android:layout_below="@+id/textView5"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="32dp"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
