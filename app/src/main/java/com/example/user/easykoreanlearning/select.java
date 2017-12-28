@@ -9,7 +9,7 @@ import android.widget.Toast;
 
 public class select extends AppCompatActivity {
     //declare the button
-    Button btnI,btnO,btnU,btnA,btnG,btnD,btnNG,btnS,btnN,btnM,btnHome;
+    Button btnI,btnO,btnU,btnA,btnG,btnD,btnNG,btnS,btnN,btnM,btnHome,btnJIEUT,btnHIEUT,btnOH,btnUH,btnYAH,btnYUH,btnYOH,btnYOO,btnAE,btnRIEUL;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,6 +27,17 @@ public class select extends AppCompatActivity {
         btnS= (Button) findViewById(R.id.button21);
         btnU= (Button) findViewById(R.id.button26);
 
+        btnJIEUT = (Button) findViewById(R.id.button19);
+        btnHIEUT = (Button) findViewById(R.id.button31);
+        btnOH = (Button) findViewById(R.id.button33);
+        btnUH = (Button) findViewById(R.id.button18);
+        btnYAH = (Button) findViewById(R.id.button34);
+        btnYUH = (Button) findViewById(R.id.button35);
+        btnYOH = (Button) findViewById(R.id.button36);
+        btnYOO = (Button) findViewById(R.id.button38);
+        btnAE = (Button) findViewById(R.id.button39);
+        btnRIEUL = (Button) findViewById(R.id.button37);
+
         btnHome = (Button)findViewById(R.id.btnHome);
         btnHome.setOnClickListener(mainMenu);
 
@@ -40,6 +51,17 @@ public class select extends AppCompatActivity {
         btnO.setOnClickListener(goOutput);
         btnS.setOnClickListener(goOutput);
         btnU.setOnClickListener(goOutput);
+
+        btnJIEUT.setOnClickListener(goOutput);
+        btnHIEUT.setOnClickListener(goOutput);
+        btnOH.setOnClickListener(goOutput);
+        btnUH.setOnClickListener(goOutput);
+        btnYAH.setOnClickListener(goOutput);
+        btnYUH.setOnClickListener(goOutput);
+        btnYOH.setOnClickListener(goOutput);
+        btnYOO.setOnClickListener(goOutput);
+        btnAE.setOnClickListener(goOutput);
+        btnRIEUL.setOnClickListener(goOutput);
 
     }
 
@@ -59,6 +81,16 @@ public class select extends AppCompatActivity {
                 case "ㅅ":words = "s";break;
                 case "ㄴ":words = "n";break;
                 case "ㅁ":words = "m";break;
+                case "ㅈ":words = "j";break;
+                case "ㅎ":words = "h";break;
+                case "ㅓ":words = "eo";break;
+                case "ㅡ":words = "eu";break;
+                case "ㅑ":words = "ya";break;
+                case "ㅕ":words = "yeo";break;
+                case "ㅛ":words = "yo";break;
+                case "ㅠ":words = "yu";break;
+                case "ㅐ":words = "ae";break;
+                case "ㄹ":words = "r";break;
             }
 
             Intent activityChangeIntent = new Intent(select.this, output.class);

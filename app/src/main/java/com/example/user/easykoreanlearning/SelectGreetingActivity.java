@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class SelectGreetingActivity extends AppCompatActivity {
-    Button btnHome,how,nice,bye,well,name;
+    Button btnHome,how,nice,bye,well,name,fine,too;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -19,12 +19,17 @@ public class SelectGreetingActivity extends AppCompatActivity {
         bye = (Button)findViewById(R.id.button14);
         well = (Button)findViewById(R.id.button15);
         name = (Button)findViewById(R.id.button13);
+        fine = (Button)findViewById(R.id.button32);
+        too = (Button)findViewById(R.id.button40);
+
 
         how.setOnClickListener(goOutput);
         nice.setOnClickListener(goOutput);
         bye.setOnClickListener(goOutput);
         well.setOnClickListener(goOutput);
         name.setOnClickListener(goOutput);
+        fine.setOnClickListener(goOutput);
+        too.setOnClickListener(goOutput);
         btnHome.setOnClickListener(mainMenu);
     }
     View.OnClickListener mainMenu = new View.OnClickListener() {
@@ -49,6 +54,8 @@ public class SelectGreetingActivity extends AppCompatActivity {
                 case "Goodbye":words = "Goodbye";pronoun="jalgayo";indexer="10";break;
                 case "Stay Well":words = "Stay Well";pronoun="annyeonghigyeseyo";indexer="11";break;
                 case "What Is Your Name?":words = "What Is Your Name?";pronoun="ileum-i mwo-eyo?";indexer="12";break;
+                case "i'm fine":words = "i'm fine";pronoun="gwenchansumnida";indexer="13";break;
+                case "you too":words = "you too";pronoun="dangsindo yeogsi";indexer="14";break;
             }
 
             Intent activityChangeIntent = new Intent(SelectGreetingActivity.this, outputNoImage.class);

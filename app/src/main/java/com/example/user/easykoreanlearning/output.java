@@ -56,6 +56,16 @@ public class output extends AppCompatActivity {
             case "s":id= R.raw.s;gestureResult.setBackgroundResource(R.drawable.s);charSound= MediaPlayer.create(output.this,R.raw.s_char);break;
             case "n":id= R.raw.n;gestureResult.setBackgroundResource(R.drawable.n);charSound= MediaPlayer.create(output.this,R.raw.n_char);break;
             case "m":id= R.raw.m;gestureResult.setBackgroundResource(R.drawable.m);charSound= MediaPlayer.create(output.this,R.raw.m_char);break;
+            case "j":id= R.raw.j;gestureResult.setBackgroundResource(R.drawable.j);charSound= MediaPlayer.create(output.this,R.raw.j_char);break;
+            case "h":id= R.raw.h;gestureResult.setBackgroundResource(R.drawable.h);charSound= MediaPlayer.create(output.this,R.raw.h_char);break;
+            case "eo":id= R.raw.eo;gestureResult.setBackgroundResource(R.drawable.eo);charSound= MediaPlayer.create(output.this,R.raw.eo_char);break;
+            case "eu":id= R.raw.eu;gestureResult.setBackgroundResource(R.drawable.eu);charSound= MediaPlayer.create(output.this,R.raw.eu_char);break;
+            case "ya":id= R.raw.ya;gestureResult.setBackgroundResource(R.drawable.ya);charSound= MediaPlayer.create(output.this,R.raw.ya_char);break;
+            case "yeo":id= R.raw.yeo;gestureResult.setBackgroundResource(R.drawable.yeo);charSound= MediaPlayer.create(output.this,R.raw.yeo_char);break;
+            case "yo":id= R.raw.yo;gestureResult.setBackgroundResource(R.drawable.yo);charSound= MediaPlayer.create(output.this,R.raw.yo_char);break;
+            case "yu":id= R.raw.yu;gestureResult.setBackgroundResource(R.drawable.yu);charSound= MediaPlayer.create(output.this,R.raw.yu_char);break;
+            case "ae":id= R.raw.ae;gestureResult.setBackgroundResource(R.drawable.ae);charSound= MediaPlayer.create(output.this,R.raw.ae_char);break;
+            case "r":id= R.raw.r;gestureResult.setBackgroundResource(R.drawable.r);charSound= MediaPlayer.create(output.this,R.raw.r_char);break;
             case "":id= R.raw.m;break;
         }
         //gestureResult.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_i, 0, 0, 0);

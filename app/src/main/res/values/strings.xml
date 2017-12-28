@@ -23,6 +23,8 @@
     <string name="goodbye">잘가요</string>
     <string name="stay_well">안녕히계세요</string>
     <string name="what_is_your_name">당신의 이름은 무엇입니까?</string>
+    <string name="im_fine">괜찮습니다</string>
+    <string name="you_too">당신도 역시</string>
 
     <string name="man">남자</string>
     <string name="woman">여자</string>

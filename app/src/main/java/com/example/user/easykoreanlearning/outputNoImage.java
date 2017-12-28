@@ -40,6 +40,8 @@ public class outputNoImage extends AppCompatActivity {
             case "10":korean = getResources().getString(R.string.goodbye);charSound= MediaPlayer.create(outputNoImage.this,R.raw.goodbye);break;
             case "11":korean = getResources().getString(R.string.stay_well);charSound= MediaPlayer.create(outputNoImage.this,R.raw.stay_well);break;
             case "12":korean = getResources().getString(R.string.what_is_your_name);charSound= MediaPlayer.create(outputNoImage.this,R.raw.what_is_your_name);break;
+            case "13":korean = getResources().getString(R.string.im_fine);charSound= MediaPlayer.create(outputNoImage.this,R.raw.im_fine);break;
+            case "14":korean = getResources().getString(R.string.you_too);charSound= MediaPlayer.create(outputNoImage.this,R.raw.you_too);break;
         }
 
         Button back = (Button)findViewById(R.id.button17);
